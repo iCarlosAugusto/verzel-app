@@ -5,7 +5,7 @@ class ApiHelper {
   Dio api = Dio(
     BaseOptions(baseUrl: "http://10.0.2.2:3000")
   );
-  late String? acessToken;
+  String? acessToken;
   final _storage = const FlutterSecureStorage();
 
   ApiHelper() {
